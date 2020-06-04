@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEybe Shop</title>
+	<link rel="stylesheet" type="text/css" href="just CSS.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</head>
+<body>
+<script>
+
+jQuery(document).ready(function() {
+  
+  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+
+</script>
+<div class ="menu wow bounceInRight" data-wow-duration='2s'>
+	<nav>
+  <ul class="topmenu">
+    <li><a href="" class="active"><font size="3">Categories</font><span class="fa fa-angle-down"></span></a>
+      <ul class="submenu">
+        <li><a href="pages/LG_TV.html">Television</a>
+        	 <ul class="submenu">
+        <li><a href="pages/LG_TV.html">LG</a></li>
+        <li><a href="pages/LG_TV.html">Sumsung</a></li>
+        <li><a href="pages/LG_TV.html">Sonu</a></li>
+      </ul>
+        </li>
+        <li><a href="pages/page_smartphones.html">Smartphones<span class="fa fa-angle-down"></span></a>
+          <ul class="submenu">
+        <li><a href="pages/page_smartphones.html">Sumsung</a></li>
+        <li><a href="pages/page_smartphones.html">Xiaomi</a></li>
+        <li><a href="pages/page_smartphones.html">Huawei</a></li>
+      </ul>
+        </li>
+        <li><a href="pages/Laptops.html">Laptops</a>
+        	<ul class="submenu">
+        <li><a href="pages/Laptops.html">Lenovo</a></li>
+        <li><a href="pages/Laptops.html">Acer</a></li>
+        <li><a href="pages/Laptops.html">Apple</a></li>
+      </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="">Computer</a>
+
+          <ul class="submenu">
+        <li><a href="pages/graphick_card_page.html">graphics card</a></li>
+        <li><a href="pages/CPU_page.html">CPU</a></li>
+        <li><a href="pages/RAM_PAGE.html">RAM</a></li>
+      </ul>
+        </li>
+    
+    <li><a href="pages/about_us.html">about us</a></li>
+    <li><a href="pages/contacts.html">contacts</a></li>
+  </ul>
+	</nav>
+</div>
+
+<img src="images/intro1.jpg" class="photo_mane wow bounceInLeft" data-wow-duration='2s'>
+
+<div class="BG_BODY"></div>
+<center><img src="images/Photo_cat.png" class="just_text_top"></center>
+
+
+
+  <a href="pages/page_smartphones.html">
+<div class="HOV1 wow bounceInLeft" data-wow-duration='1s' data-wow-offset='10'>
+
+  <img src="images/telephone.jpg" class="img1">
+
+  <figure class="circle1"></figure>
+  <img src="images/icons8-iphone-80(2).png" class="icon1">
+</div>
+</a>
+
+
+
+
+<a href="pages/Laptops.html">
+<div class="HOV2 wow bounceInUp" data-wow-duration='2s' data-wow-offset='10'>
+
+  <img src="images/laptop_mane.jpg" class="img2">
+
+  <figure class="circle2"></figure>
+  <img src="images/laptop1.png" class="icon2">
+</div>
+</a>
+
+
+
+
+<a href="pages/LG_TV.html">
+<div class="HOV3 wow bounceInRight" data-wow-duration='2.5s' data-wow-offset='10'>
+
+  <img src="images/tv_mane.jpg" class="img3">
+
+  <figure class="circle3"></figure>
+  <img src="images/tv_icon.png" class="icon3">
+</div>
+</div>
+</a>
+<div><img src="images/redak5.jpg" class="comp"></div>
+<div><img src="images/omputer_parts.png" class="comp_cat"></div>
+
+<a href="pages/CPU_page.html">
+<div class="compCPU_HOV1 wow bounceInLeft" data-wow-duration='2s' data-wow-offset='10'>
+
+ <img src="images/cpu_mane.jpeg" class="comp_cpu">
+
+  <figure class="circle_cpu"></figure>
+  <img src="images/cpu.png" class="cpu_icon">
+</div>
+</a>
+
+
+
+<a href="pages/graphick_card_page.html">
+<div class="comp_graphicscard_HOV2 wow bounceInDown" data-wow-duration='2s' data-wow-offset='10'>
+
+ <img src="images/graphics_card.jpg" class="comp_graphicscard">
+
+  <figure class="circle_graphicscard"></figure>
+  <img src="images/video-card1.png" class="graphicscard_icon">
+</div>
+</a>
+
+<a href="pages/RAM_PAGE.html">
+<div class="comp_ram_HOV3 wow bounceInRight" data-wow-duration='2s' data-wow-offset='10'>
+
+ <img src="images/ram_mane.jpg" class="comp_ram">
+
+  <figure class="circle_ram"></figure>
+  <img src="images/RAM(ICON).png" class="ram_icon">
+</div>
+</a>
+
+<a id="button"><img src="images/arrow_up.png" class="urrow_up"></a>
+
+
+<div class="footer wow zoomIn" data-wow-duration='0.5s'>
+  <h3><font color="#D0CACA"><p class="button8 " onclick="this.style.display='none'">our website uses cookies for your convenience</p></h3></font>
+    <hr size=3px width=100% align="left" class="line">
+  <h2 class="cat_foot">Categories</h3>
+  <h3><a href="pages/LG_TV.html" class="cat_foot_1_">Television</a><a href="pages/page_smartphones.html" class="cat_foot_2_">Smartphones</a><a href="pages/Laptops.html" class="cat_foot_3_">Laptops</a></h3>
+<h2 class="cat_comp_foot">Computer parts</h3>
+  <h3><a href="pages/graphick_card_page.html" class="cat_foot_Graphics_card_">Graphics card</a><a href="pages/CPU_page.html" class="cat_foot_CPU_">CPU</a><a href="pages/RAM_PAGE.html" class="cat_foot_RAM_">RAM</a></h3><h2><a href="pages/about_us.html" class="about_us_1">About us</a><a href="pages/contacts.html" class="contacts_1">Contacts</a></h2>
+  <img src="images/aliexpress.png" class="aliexpress_img_footer">
+  
+
+</div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About us</title>
+  <link rel="stylesheet" type="text/css" href="css_pages/CSS_About_us1.css">
+  <link rel="stylesheet" type="text/css" href="../animate.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <script src="../wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</head>
+<body>
+<script>
+
+jQuery(document).ready(function() {
+  
+  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+</script>
+<div class="menu wow heartBeat" data-wow-duration=2s>
+  <nav>
+  <ul class="topmenu">
+    <li><a href="../just_web_site.html" class="active"><font size="3">Categories</font><span class="fa fa-angle-down"></span></a>
+      <ul class="submenu">
+        <li><a href="LG_TV.html">Television</a>
+           <ul class="submenu">
+        <li><a href="LG_TV.html">LG</a></li>
+        <li><a href="LG_TV.html">Sumsung</a></li>
+        <li><a href="LG_TV.html">Sonu</a></li>
+      </ul>
+        </li>
+        <li><a href="page_smartphones.html">Smartphones<span class="fa fa-angle-down"></span></a>
+          <ul class="submenu">
+        <li><a href="page_smartphones.html">Sumsung</a></li>
+        <li><a href="page_smartphones.html">Xiaomi</a></li>
+        <li><a href="page_smartphones.html">Huawei</a></li>
+      </ul>
+        </li>
+        <li><a href="laptops.html">Laptops</a>
+          <ul class="submenu">
+        <li><a href="Laptops.html">Lenovo</a></li>
+        <li><a href="Laptops.html">Acer</a></li>
+        <li><a href="Laptops.html">Apple</a></li>
+      </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="">Computer</a>
+
+          <ul class="submenu">
+        <li><a href="graphick_card_page.html">graphics card</a></li>
+        <li><a href="CPU_page.html">CPU</a></li>
+        <li><a href="RAM_PAGE.html">RAM</a></li>
+      </ul>
+        </li>
+    
+    <li><a href="about_us.html">about us</a></li>
+    <li><a href="contacts.html">contacts</a></li>
+  </ul>
+  </nav>
+  </div>
+</div>
+</div>
+<div class="flex_container">
+<div class="main_words">
+<p style=" font-family: 'Bungee', cursive; font-size: 50px;">
+This site gives you access to the best devices and computer components. We cooperate with Aliexpress and by buying things you help the author of this site.</p>
+</div>
+
+</div>  
+
+</body>
+</html>
